@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   let Links = [
@@ -17,8 +18,8 @@ const Navbar = () => {
   return (
     <div className='w-full'>
       <div className='md:flex justify-between py-4 md:px-10 px-7'>
-        <div className='text-xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
-          {/* <img src={logo} alt='De-Benedict' style={{ width: '200px', height: 'auto' }} /> */}
+        <div className='text-xl cursor-pointer flex items-center text-gray-800'>
+          <img src={logo} alt='De-Benedict' style={{ width: '60px', height: 'auto' }} />
         </div>
         <div
           onClick={toggleMenu}
@@ -36,7 +37,7 @@ const Navbar = () => {
               <Link
                 to={link.linkTo}
                 onClick={closeMenu}
-                className='flex items-center text-xl text-white hover:text-amber-500 duration-500'
+                className='flex items-center text-xl text-indigo-950 hover:text-white duration-500' style={{ fontFamily: 'Lato, sans-serif' }}
               >
                 {link.name}
               </Link>
