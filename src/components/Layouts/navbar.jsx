@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineClose } from 'react-icons/ai';
-import { CgMenuRound } from 'react-icons/cg';
+import { CgMenuRound, CgCloseO } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
@@ -26,7 +25,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           className='text-indigo-950 text-3xl absolute right-8 top-6 cursor-pointer md:hidden'
         >
-          {isOpen ? <AiOutlineClose /> : <CgMenuRound />}
+          {isOpen ? <CgCloseO /> : <CgMenuRound />}
         </div>
         <ul
           className={`${
