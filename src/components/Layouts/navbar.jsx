@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
+import { CgMenuRound } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   let Links = [
     { name: 'Home', linkTo: '/' },
-    { name: 'About Us', linkTo: '/aboutwithires' },
+    { name: 'About us', linkTo: '/aboutwithires' },
     { name: 'Hire Professionals', linkTo: '/hireprofessionals' },
     { name: 'Courses', linkTo: '/courses' },
   ];
@@ -23,9 +24,9 @@ const Navbar = () => {
         </div>
         <div
           onClick={toggleMenu}
-          className='text-white text-3xl absolute right-8 top-6 cursor-pointer md:hidden'
+          className='text-indigo-950 text-3xl absolute right-8 top-6 cursor-pointer md:hidden'
         >
-          {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+          {isOpen ? <AiOutlineClose /> : <CgMenuRound />}
         </div>
         <ul
           className={`${
@@ -37,7 +38,7 @@ const Navbar = () => {
               <Link
                 to={link.linkTo}
                 onClick={closeMenu}
-                className='flex items-center text-xl text-indigo-950 hover:text-white duration-500' style={{ fontFamily: 'Lato, sans-serif' }}
+                className='flex items-center text-xl text-indigo-950 hover:text-white duration-500 mt-4' style={{ fontFamily: 'Lato, sans-serif' }}
               >
                 {link.name}
               </Link>
