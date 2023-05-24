@@ -15,7 +15,6 @@ const Hero = () => {
         </button>
         </Link>
       </div>
-      
       {/* Image Card */}
       <div className="flex-shrink-0 w-full md:w-2/3 xl:w-3/4">
         <div className="h-64 md:h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bgrm})` }}></div>
