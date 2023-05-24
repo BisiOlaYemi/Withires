@@ -1,15 +1,14 @@
 import React from 'react';
-import Navbar from "./components/Layouts/navbar";
 import Hero from './components/Homepage/Hero';
-import Footer from './components/Layouts/footer';
+import MainLayout from './components/Layouts/MainLayout';
 
 
 function App() {
   return (
     <>
-    <Navbar />
+    <MainLayout>
     <Hero />
-    <Footer />
+    </MainLayout>
     </>
   );
 }
