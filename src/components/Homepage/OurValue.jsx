@@ -5,7 +5,7 @@ const OurValue = () => {
   return (
     <div className="flex flex-col items-center mt-12 animate-fade-in-up">
       <h1 className="text-4xl font-bold mb-4 text-white">Our Values</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 ml-6">
         <div className="flex flex-col items-center  rounded-lg p-4">
           <FaUserPlus className="text-gray-800 text-4xl mb-2" />
           <h2 className="text-xl font-bold mb-2">Quality</h2>
