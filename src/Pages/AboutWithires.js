@@ -17,7 +17,7 @@ const AboutWithires = () => {
         <div className="overflow-hidden mx-2 my-2 sm:mx-4 sm:my-2 w-1/2 sm:w-1/4">
           <img src={} alt="Instructor 3" className="w-full object-cover" />
         </div> */}
-        <div className="flex flex-col md:flex-row rounded-lg shadow-lg overflow-hidden mt-24 animate-fade-in-up">
+        <div className="flex flex-col md:flex-row rounded-lg overflow-hidden mt-24 animate-fade-in-up">
             <div className="md:w-2/3 h-screen">
               <img src={about} alt="place" />
             </div>
