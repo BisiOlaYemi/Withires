@@ -19,7 +19,9 @@ const Navbar = () => {
     <div className='w-full'>
       <div className='md:flex justify-between py-4 md:px-10 px-7'>
         <div className='text-xl cursor-pointer flex items-center text-gray-800'>
+          <Link to='/'>
           <img src={logo} alt='De-Benedict' style={{ width: '60px', height: 'auto' }} />
+          </Link>
         </div>
         <div
           onClick={toggleMenu}
