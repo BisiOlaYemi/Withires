@@ -32,7 +32,7 @@ const AboutWithires = () => {
               zones and languages needed. Whether you need one person or an entire team, we match you with
               highly skilled talents in just 24 hours.
               </p>
-              <button className='bg-primary font-semibold text-gray-950 mt-2 '>Learn more </button>
+              <button className='px-2 py-2 bg-white rounded-lg font-semibold text-gray-950 mt-2 '>Get in touch </button>
             </div>
     </div>
       </div>
