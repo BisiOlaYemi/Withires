@@ -1,6 +1,8 @@
 import React from 'react'
 import MainLayout from '../components/Layouts/MainLayout';
 import about from '../assets/about.jpg'
+import { Link } from 'react-router-dom';
+import Vision from '../components/About/Vision';
 
 const AboutWithires = () => {
   return (
@@ -17,7 +19,7 @@ const AboutWithires = () => {
         <div className="overflow-hidden mx-2 my-2 sm:mx-4 sm:my-2 w-1/2 sm:w-1/4">
           <img src={} alt="Instructor 3" className="w-full object-cover" />
         </div> */}
-        <div className="flex flex-col md:flex-row rounded-lg overflow-hidden mt-24 animate-fade-in-up">
+        <div className="flex flex-col md:flex-row rounded-lg overflow-hidden mt-12 animate-fade-in-up">
             <div className="md:w-2/3 h-screen">
               <img src={about} alt="place" />
             </div>
@@ -32,9 +34,12 @@ const AboutWithires = () => {
               zones and languages needed. Whether you need one person or an entire team, we match you with
               highly skilled talents in just 24 hours.
               </p>
-              <button className='px-2 py-2 bg-white rounded-lg font-semibold text-gray-950 mt-2 '>Get in touch </button>
+              <Link to='/hireprofessionals'>
+                  <button className='px-2 py-2 bg-white rounded-lg font-semibold text-gray-800 mt-2 '>Talent Pool </button>
+              </Link>
             </div>
-    </div>
+        </div>
+        <Vision />
       </div>
     {/* </div> */}
     </MainLayout>
