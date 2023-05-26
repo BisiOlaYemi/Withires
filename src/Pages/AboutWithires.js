@@ -19,11 +19,11 @@ const AboutWithires = () => {
           <button className="px-4 py-2 rounded-lg bg-gray-800 font-semibold text-white mt-4">Enroll now</button>
         </div>
         <div className="md:w-1/2 pl-8">
-          <img src={about} alt="About us" className="w-full h-auto object-cover rounded-lg animate-fade-in-down" />
+          <img src={about} alt="About us" className="w-full h-auto object-cover rounded-lg animate-fade-in-up" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse rounded-lg overflow-hidden mt-12">
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 animate-fade-in-down">
           <img src="https://media.istockphoto.com/id/1264334407/photo/coworkers-doing-a-meeting-outdoors.jpg?s=612x612&w=0&k=20&c=rCIRjU-Wns_1X4nyFOYBfouP6h595Do6aFDoq0FYGWE=" alt="Vision" className="rounded-lg object-cover animate-fade-in-down" />
         </div>
         <div className="md:w-1/2 p-6 pl-8 mb-8">
