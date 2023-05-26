@@ -9,7 +9,7 @@ const AboutWithires = () => {
         <div className="md:w-1/2 px-6 py-4 md:px-10 md:py-6">
           <h1 className="text-3xl font-bold mb-4">About us</h1>
           <p className="text-gray-700 text-base text-white font-medium">
-            Wit Hires Consulting is a technology-driven deep jobs platform that gives clients
+            WitHires Consulting is a technology-driven deep jobs platform that gives clients
             the fastest access on the market to the support they need with highly skilled specialists
             and industry-leading tech professionals. We help source, hire, onboard, and manage the talent
             you need at the push of a button. Our 'remote-first' culture allows us to support clients on a
