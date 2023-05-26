@@ -26,7 +26,7 @@ const AboutWithires = () => {
         <div className="md:w-1/2">
           <img src="https://media.istockphoto.com/id/1264334407/photo/coworkers-doing-a-meeting-outdoors.jpg?s=612x612&w=0&k=20&c=rCIRjU-Wns_1X4nyFOYBfouP6h595Do6aFDoq0FYGWE=" alt="Vision" className="rounded-lg object-cover animate-fade-in-down" />
         </div>
-        <div className="md:w-1/2 p-6 pl-8">
+        <div className="md:w-1/2 p-6 pl-8 mb-8">
           <h1 className="text-3xl font-bold mb-4">Our Vision</h1>
           <p className="text-gray-700 text-base text-white font-medium">
             At Withires, our vision is to be the leading provider of exceptional services,
@@ -39,6 +39,16 @@ const AboutWithires = () => {
             admiration from both clients and colleagues alike, fostering enduring relationships built on mutual
             respect.
           </p>
+          <div className='flex flex-wrap justify-center mt-12'>
+            
+              <p className="text-gray-700 text-gray-800 font-bold text-2xl">Contact: Benedict Olusola Amusan</p>
+              <p className="text-gray-700 text-base text-white font-medium">Email Address: benedictamusan@withires.com or info@withires.com</p>
+              <p className="text-gray-700 text-base text-white font-medium">Mobile No: +2348060444441 | WhatsApp: +18328028193</p>
+              
+              <p className="text-gray-700 text-base text-white font-medium hover:text-gray-800">
+                  LinkedIn: <a href="https://www.linkedin.com/in/benedict-olusola-amusan-b0457838/" target="_blank" rel="noopener noreferrer">Benedict Olusola Amusan</a>
+                </p>
+      </div>
         </div>
       </div>
     </MainLayout>
