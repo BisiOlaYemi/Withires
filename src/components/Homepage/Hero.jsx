@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center">
+    <div className="flex flex-col md:flex-row items-center animate-fade-in-down">
       {/* Content */}
       <div className="flex flex-col justify-center max-w-md px-16 py-8 md:py-16 md:w-1/3 xl:w-1/4">
         <h1 className="text-4xl font-bold mb-4 text-gray-800">Dream Jobs.Top Talent. All in One Place </h1>
