@@ -22,17 +22,17 @@ const Courses = () => {
         <h2 className="text-3xl font-bold text-center mb-6">Courses</h2>
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in-down">
           {technos.map((techno, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div key={index} className="bg-gray-800 py-24 rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-2">{techno.course}</h3>
-                <p className="text-gray-800">"Get the needed Training in Tech"</p>
+                <h3 className="text-lg font-bold text-white mb-2">{techno.course}</h3>
+                <p className="text-white">"Get the needed Training in Tech"</p>
               </div>
-              <div className="bg-white py-3 px-4 text-right">
+              <div className=" py-3 px-4 text-right">
                 <button
-                  className="px-2 py-1 rounded-lg bg-gray-800 font-semibold text-white mt-4"
+                  className="px-2 py-1 rounded-lg bg-teal-600 font-semibold text-white mt-4"
                   onClick={() => openCourse(techno.pdf)}
                 >
-                  View Details
+                  Course Details
                 </button>
               </div>
             </div>
