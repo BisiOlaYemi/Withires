@@ -25,7 +25,6 @@ const Courses = () => {
             <div key={index} className="bg-gray-800 py-24 rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
                 <h3 className="text-lg font-bold text-white mb-2">{techno.course}</h3>
-                <p className="text-white">"Get the needed Training in Tech"</p>
               </div>
               <div className=" py-3 px-4 text-right">
                 <button
