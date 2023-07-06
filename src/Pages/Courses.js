@@ -29,7 +29,7 @@ const Courses = () => {
               </div>
               <div className=" py-3 px-4 text-right">
                 <button
-                  className="px-2 py-1 rounded-lg bg-teal-600 font-semibold text-white mt-4"
+                  className="px-2 py-1 rounded-lg bg-teal-600 font-semibold text-white mt-24"
                   onClick={() => openCourse(techno.pdf)}
                 >
                   Course Details
