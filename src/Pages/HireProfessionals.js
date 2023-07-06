@@ -23,7 +23,7 @@ const HireProfessionals = () => {
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="p-6">
               <h3 className="text-lg font-bold mb-2">{professional}</h3>
-              <p className="text-gray-600">"Unlock the Power of Talent: Hire Experts to Drive Success!"</p>
+              <p className="text-gray-800">"Unlock the Power of Talent: Hire Experts to Drive Success!"</p>
             </div>
             <div className="bg-white py-3 px-4 text-right">
             <a href="mailto:benedictamusan@withires.com">
