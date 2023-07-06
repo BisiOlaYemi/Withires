@@ -20,6 +20,7 @@ const Courses = () => {
     <MainLayout>
       <div className="container mx-auto py-8 mt-12">
         <h2 className="text-3xl font-bold text-center mb-6">Courses</h2>
+        <p className="text-white text-center">"Get the needed Training in Tech"</p>
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in-down">
           {technos.map((techno, index) => (
             <div key={index} className="bg-gray-800 py-24 rounded-lg shadow-md overflow-hidden">
