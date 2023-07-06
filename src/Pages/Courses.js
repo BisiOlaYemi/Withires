@@ -22,7 +22,7 @@ const Courses = () => {
         <h2 className="text-3xl font-bold text-center mb-6">Courses</h2>
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in-down">
           {technos.map((techno, index) => (
-            <div key={index} className="bg-gray-800 py-24 rounded-lg shadow-md overflow-hidden">
+            <div key={index} className="bg-gray-800 py-20 rounded-lg shadow-md overflow-hidden">
               <div className="p-6">
                 <h3 className="text-lg font-bold text-white mb-2">{techno.course}</h3>
                 <p className="text-white">"Get the needed Training in Tech"</p>
