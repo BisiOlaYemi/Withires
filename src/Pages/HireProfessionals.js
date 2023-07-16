@@ -27,7 +27,7 @@ const HireProfessionals = () => {
             </div>
             <div className=" py-3 px-4 text-right">
             <a href="mailto:benedictamusan@withires.com">
-                <button className="px-2 py-1 rounded-lg bg-gray-800 font-semibold text-white mt-4">
+                <button className=" px-2 py-1 rounded-lg bg-gray-800 font-semibold text-white mt-4">
                   Click here to hire
                 </button>
             </a>
