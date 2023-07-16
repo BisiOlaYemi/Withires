@@ -1,7 +1,7 @@
 import React from 'react';
 import bgrm from '../../assets/bgrm.png';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
