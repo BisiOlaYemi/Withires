@@ -44,7 +44,7 @@ const JobListing = () => {
   const JobCard = ({ title, caption }) => {
     return (
       <div className="bg-white shadow-md rounded-lg p-6 mb-4 hover:scale-105 transition-all duration-300">
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="text-gray-600 mb-4">{caption}</p>
         <a href="mailto:benedictamusan@withires.com">
           <button className="bg-gray-800 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
