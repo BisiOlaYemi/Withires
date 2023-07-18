@@ -18,7 +18,7 @@ const HireProfessionals = () => {
     <MainLayout>
      <div className="container mx-auto py-8 mt-12">
       <h2 className="text-3xl font-bold text-center mb-6">Talent Pool</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 animate-fade-in-down">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 animate-fade-in-down">
         {professionals.map((professional, index) => (
           <div key={index} className="md:w-200 p-8 min-w-260 bg-gray-300 backdrop-blur-lg rounded-3xl flex flex-col justify-center drop-shadow-lg gap-4 hover:scale-105 transition-all duration-300">
             <div className="p-6">
