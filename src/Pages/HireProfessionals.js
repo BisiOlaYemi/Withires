@@ -1,72 +1,43 @@
-import React from 'react';
+import React from 'react'
 import MainLayout from '../components/Layouts/MainLayout';
 
-const JobListing = () => {
-  const jobs = [
-    {
-      title: 'Software Engineer',
-      caption: 'Design and develop software applications.',
-    },
-    {
-      title: 'UI/UX Designer',
-      caption: 'Create user-friendly and visually appealing interfaces.',
-    },
-    {
-      title: 'RPA Developer',
-      caption: 'Build and automate robotic process automation solutions.',
-    },
-    {
-      title: 'DevOps Engineer',
-      caption: 'Manage and improve the software development lifecycle.',
-    },
-    {
-      title: 'Data Engineer',
-      caption: 'Design and implement data processing systems.',
-    },
-    {
-      title: 'Automation Tester',
-      caption: 'Develop and execute automated test cases.',
-    },
-    {
-      title: 'Product Manager',
-      caption: 'Lead product development and strategy.',
-    },
-    {
-      title: 'Business Analyst',
-      caption: 'Analyze business requirements and propose solutions.',
-    },
-    {
-      title: 'Cybersecurity Expert',
-      caption: 'Protect systems and data from security threats.',
-    },
+const HireProfessionals = () => {
+  const professionals = [
+    'Software Engineer',
+    'UI/UX Designer',
+    'RPA Developer',
+    'DevOps Engineer',
+    'Data Engineer',
+    'Automation Tester',
+    'Product Manager',
+    'Business Analyst',
+    'Cybersecurity Expert',
   ];
-
-  const JobCard = ({ title, caption }) => {
-    return (
-      <div className="bg-white shadow-md rounded-lg p-6 mb-4 hover:scale-105 transition-all duration-300">
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
-        <p className="text-gray-600 mb-4">{caption}</p>
-        <a href="mailto:benedictamusan@withires.com">
-          <button className="bg-gray-800 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">
-            Click to hire
-          </button>
-        </a>
-      </div>
-    );
-  };
 
   return (
     <MainLayout>
-    <div className="container mx-auto px-4 mb-8">
-      <h1 className="text-3xl font-semibold mb-6 mt-24 text-center">Talent Pool</h1>
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-        {jobs.map((job, index) => (
-          <JobCard key={index} title={job.title} caption={job.caption} />
+     <div className="container mx-auto py-8 mt-12">
+      <h2 className="text-3xl font-bold text-center mb-6">Talent Pool</h2>
+      <div className="flex flex-wrap justify-center gap-4 animate-fade-in-down">
+        {professionals.map((professional, index) => (
+          <div key={index} className="md:w-200 p-8 min-w-260 bg-gray-300  rounded-3xl flex flex-col justify-center drop-shadow-lg gap-4 hover:scale-105 transition-all duration-300">
+            <div className="p-6">
+              <h3 className="text-lg font-bold mb-2">{professional}</h3>
+              <p className="text-gray-800">"Unlock the Power of Talent: Hire Experts to Drive Success!"</p>
+            </div>
+            <div className=" py-3 px-4 text-right">
+            <a href="mailto:benedictamusan@withires.com">
+                <button className=" px-2 py-1 rounded-lg bg-gray-800 hover:bg-teal-600 font-semibold text-white mt-4">
+                  Click here to hire
+                </button>
+            </a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
     </MainLayout>
-  );
-};
+  )
+}
 
-export default JobListing;
+export default HireProfessionals
