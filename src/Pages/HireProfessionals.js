@@ -1,18 +1,6 @@
 import React from 'react';
 import MainLayout from '../components/Layouts/MainLayout';
 
-const JobCard = ({ title, caption }) => {
-  return (
-    <div className="bg-white shadow-md rounded-lg p-6 mb-4 hover:scale-105 transition-all duration-300">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <p className="text-gray-600 mb-4">{caption}</p>
-      <button className="bg-gray-800 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
-        Apply
-      </button>
-    </div>
-  );
-};
-
 const JobListing = () => {
   const jobs = [
     {
@@ -52,6 +40,18 @@ const JobListing = () => {
       caption: 'Protect systems and data from security threats.',
     },
   ];
+
+  const JobCard = ({ title, caption }) => {
+    return (
+      <div className="bg-white shadow-md rounded-lg p-6 mb-4 hover:scale-105 transition-all duration-300">
+        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <p className="text-gray-600 mb-4">{caption}</p>
+        <button className="bg-gray-800 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+          Click to hire
+        </button>
+      </div>
+    );
+  };
 
   return (
     <MainLayout>
