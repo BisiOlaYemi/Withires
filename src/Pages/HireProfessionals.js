@@ -48,8 +48,8 @@ const JobListing = () => {
         <p className="text-gray-600 mb-4">{caption}</p>
         <a href="mailto:benedictamusan@withires.com">
           <button className="bg-gray-800 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
-          Click to hire
-        </button>
+            Click to hire
+          </button>
         </a>
       </div>
     );
