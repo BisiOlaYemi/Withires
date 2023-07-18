@@ -47,7 +47,7 @@ const JobListing = () => {
         <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="text-gray-600 mb-4">{caption}</p>
         <a href="mailto:benedictamusan@withires.com">
-          <button className="bg-gray-800 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+          <button className="bg-gray-800 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded">
             Click to hire
           </button>
         </a>
