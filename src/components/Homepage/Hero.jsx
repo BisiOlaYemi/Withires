@@ -16,7 +16,7 @@ const Hero = () => {
                     <span className="bg-gradient-to-r from-purple-500 to-amber-500 text-transparent bg-clip-text text-[3rem] lg:text-[4rem]">Dream Jobs.</span> Top Talent. All in One Place 
                 </p>
 
-                <p className="text-center md:text-justify text-lighttextGray text-lg md:w-[85%] flex flex-wrap gap-1">
+                <p className="text-center md:text-justify text-white text-lg md:w-[85%] flex flex-wrap gap-1 font-medium">
                 Our ‘remote-first’ culture allows us to support clients on a global scale. WitHires Consulting is a technology-driven deep jobs platform that gives clients the fastest access on the market to the support they need with highly skilled specialists and industry-leading tech professionals.
                 </p>
 
@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className="text-center md:w-[85%] flex flex-wrap gap-1 md:gap-3">
                     {/* <input type="text" className="md:w-3/4 border px-2 py-3 rounded-lg " placeholder="Search Jobs"/> */}
                     <Link to="/hireprofessionals">
-                        <button className="bg-gray-800 text-white md:px-7 px-4 py-3 text-lg rounded-md hover:bg-violet-700">Talent Pool</button>
+                        <button className="bg-gray-800 text-white md:px-7 px-4 py-3 text-lg rounded-md hover:bg-violet-700 hover:scale-105 transition-all duration-300">Talent Pool</button>
                     </Link>
                 </div>
 
