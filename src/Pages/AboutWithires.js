@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayout from '../components/Layouts/MainLayout';
 import about from '../assets/about.jpg';
+import { Link } from 'react-router-dom';
 
 const AboutWithires = () => {
   return (
@@ -16,7 +17,9 @@ const AboutWithires = () => {
             global scale and to source our own talent to match the requirements, time zones, and languages needed.
             Whether you need one person or an entire team, we match you with highly skilled talents in just 24 hours.
           </p>
-          <button className="px-4 py-2 rounded-lg bg-gray-800 font-semibold text-white mt-4">Enroll now</button>
+          <Link to='/course'>
+              <button className="px-4 py-2 rounded-lg bg-gray-800 font-semibold text-white mt-4">Enroll now</button>
+          </Link>
         </div>
         <div className="md:w-1/2 pl-8">
           <img src={about} alt="About us" className="w-full h-auto object-cover rounded-lg animate-fade-in-up" />
