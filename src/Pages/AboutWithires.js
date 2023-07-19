@@ -22,7 +22,11 @@ const AboutWithires = () => {
           </Link>
         </div>
         <div className="md:w-1/2 pl-8">
-          <img src={about} alt="About us" className="w-full h-auto object-cover rounded-lg animate-fade-in-up" />
+          <img
+          src={about}
+          alt="About us"
+          className="w-full h-auto object-cover rounded-lg animate-fade-in-up"
+          />
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse rounded-lg overflow-hidden mt-12">
