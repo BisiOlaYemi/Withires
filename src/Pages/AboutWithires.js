@@ -23,9 +23,9 @@ const AboutWithires = () => {
         </div>
         <div className="md:w-1/2 pl-8">
           <img
-          src={about}
-          alt="About us"
-          className="w-full h-auto object-cover rounded-lg animate-fade-in-up"
+            src={about}
+            alt="About us"
+            className="w-full h-auto object-cover rounded-lg animate-fade-in-up"
           />
         </div>
       </div>
