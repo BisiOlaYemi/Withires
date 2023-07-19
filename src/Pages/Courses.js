@@ -18,7 +18,7 @@ const Courses = () => {
 
   return (
     <MainLayout>
-      <div className="container mx-auto py-8 mt-12">
+      <div className="container mx-auto py-8 mt-12 mb-12">
         <h2 className="text-3xl font-bold text-center mb-6">Courses</h2>
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in-down">
           {technos.map((techno, index) => (
