@@ -17,7 +17,7 @@ const AboutWithires = () => {
             global scale and to source our own talent to match the requirements, time zones, and languages needed.
             Whether you need one person or an entire team, we match you with highly skilled talents in just 24 hours.
           </p>
-          <Link to='/course'>
+          <Link to='/courses'>
               <button className="px-4 py-2 rounded-lg bg-gray-800 font-semibold text-white mt-4">Enroll now</button>
           </Link>
         </div>
