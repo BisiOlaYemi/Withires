@@ -25,8 +25,6 @@ const Hero = () => {
                         <button className="bg-blue-950 text-white md:px-7 px-4 py-3 text-lg rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-300">Talent Pool</button>
                     </Link>
                 </div>
-
-
             </div>
             <div className="py-2 flex-1 flex items-center relative">
                 <img
