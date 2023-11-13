@@ -13,7 +13,11 @@ const Hero = () => {
 
 
                 <p className="text-[2.5rem] text-center md:text-left lg:text-[3.5rem] font-bold tracking-wide text-headingColor md:w-[85%] md:leading-tight">
-                    <span className="bg-gradient-to-r from-purple-500 to-amber-500 text-transparent bg-clip-text text-[3rem] lg:text-[4rem]">Dream Jobs.</span> Top Talent. All in One Place 
+                    <span 
+                    className="bg-gradient-to-r from-purple-500 to-amber-500 text-transparent bg-clip-text text-[3rem] lg:text-[4rem]
+                    ">
+                        Dream Jobs.
+                    </span> Top Talent. All in One Place 
                 </p>
 
                 <p className="text-center md:text-justify text-white text-lg md:w-[85%] flex flex-wrap gap-1 font-medium">
