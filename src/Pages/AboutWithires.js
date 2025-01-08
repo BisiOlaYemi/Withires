@@ -46,14 +46,22 @@ const AboutWithires = () => {
             admiration from both clients and colleagues alike, fostering enduring relationships built on mutual
             respect.
           </p>
-          <div className='flex flex-wrap justify-center mt-12'>
-              {/* <p className="text-gray-700 text-gray-800 font-bold text-2xl">Contact: Benedict Olusola Amusan</p> */}
-              <p className="text-gray-700 text-base text-white font-medium">Email Address: support@withires.info</p> <br/>
-              <p className="text-gray-700 text-base text-white font-medium"> Mobile No: +442031050869 | +2348027000770</p>
-              {/* <p className="text-gray-700 text-base text-white font-medium hover:text-gray-800">
-                  LinkedIn: <a href="https://www.linkedin.com/in/benedict-olusola-amusan-b0457838/" target="_blank" rel="noopener noreferrer">Benedict Olusola Amusan</a>
-                </p> */}
-      </div>
+            <div className="flex flex-wrap justify-center mt-12">
+            {/* Email Address */}
+            <p className="text-gray-700 text-base text-white font-medium">
+              Email Address: support@withires.info
+            </p>
+
+            {/* Mobile Numbers */}
+            <div className="mt-8">
+              <p className="text-gray-700 text-base text-white font-medium">Mobile Numbers:</p>
+              <ul className="list-none text-white font-medium mt-2">
+                <li className="mb-2">+442031050869</li>
+                <li>+2348027000770</li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </MainLayout>
