@@ -65,13 +65,9 @@ const ContactForm = () => {
         </button>
       </div>
       <div>
-        <p>Benedict Olusola Amusan</p>
-        <p>Email Address: benedictamusan@withires.com or info@withires.com</p>
-        <p>Mobile No: +2348060444441</p>
-        <p>WhatsApp: +18328028193</p>
-        <p>
-          LinkedIn: <a href="https://www.linkedin.com/in/benedict-olusola-amusan-b0457838/" target="_blank" rel="noopener noreferrer">Benedict Olusola Amusan</a>
-        </p>
+        <p>Mobile No: +442031050869</p>
+        <p>+2348027000770</p>
+        
       </div>
     </div>
   );

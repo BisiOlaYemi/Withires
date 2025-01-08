@@ -49,7 +49,7 @@ const AboutWithires = () => {
           <div className='flex flex-wrap justify-center mt-12'>
               {/* <p className="text-gray-700 text-gray-800 font-bold text-2xl">Contact: Benedict Olusola Amusan</p> */}
               <p className="text-gray-700 text-base text-white font-medium">Email Address: support@withires.info</p>
-              <p className="text-gray-700 text-base text-white font-medium">Mobile No: +442031050869 | +2348027000770</p>
+              <p className="text-gray-700 text-base text-white font-medium"> Mobile No: +442031050869 | +2348027000770</p>
               {/* <p className="text-gray-700 text-base text-white font-medium hover:text-gray-800">
                   LinkedIn: <a href="https://www.linkedin.com/in/benedict-olusola-amusan-b0457838/" target="_blank" rel="noopener noreferrer">Benedict Olusola Amusan</a>
                 </p> */}
