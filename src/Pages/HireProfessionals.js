@@ -26,7 +26,7 @@ const HireProfessionals = () => {
               <p className="text-gray-800">"Unlock the Power of Talent: Hire Experts to Drive Success!"</p>
             </div>
             <div className=" py-3 px-4 text-right">
-            <a href="mailto:benedictamusan@withires.com">
+            <a href="mailto:support@withires.info">
                 <button className=" px-2 py-1 rounded-lg bg-gray-800 hover:bg-teal-600 font-semibold text-white mt-4">
                   Click here to hire
                 </button>
